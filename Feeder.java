@@ -19,6 +19,9 @@ public class Feeder {
         else
         {
             int eaten = (int) (Math.random() * 41) + 10;
+            eaten *= numBirds;
+            currentFood -= eaten;
+            if (currentFood < 0) currentFood = 0;
         }
     }
 
