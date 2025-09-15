@@ -13,9 +13,9 @@ public class Main
         f = new Feeder(2400);
         System.out.println(f.simulateManyDays(10,4) + " days");
         f = new Feeder(250);
-        System.out.println(f.simulateManyDays (10, 5) + "day(s)");
+        System.out.println(f.simulateManyDays (10, 5) + " day(s)");
         f = new Feeder(0);
-        System.out.println(f.simulateManyDays (5, 10) + "day(s)");
+        System.out.println(f.simulateManyDays (5, 10) + " day(s)");
         // System.out.println(Math.random());
         // System.out.println(Math.random() * 10);
         // System.out.println((int) (Math.random() * 10)+1);
